@@ -1,4 +1,36 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+}
+
+#todo {
+  padding: 50px;
+}
+#todo .box {
+  font-weight: 500;
+  width: 240px;
+  height: 180px;
+  border: 2px solid #9c6541;
+  border-radius: 20px;
+  background-color: #9c6541;
+}
+#todo .box h1 {
+  font-weight: 400;
+  font-size: 30px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+#todo .box input {
+  border-radius: 20px;
+  padding: 14px 20px;
+  margin: 20px;
+}
+#todo .box .btn {
+  background-color: #d7d7dd;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  margin: 0 80px;
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
