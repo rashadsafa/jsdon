@@ -35,8 +35,7 @@ body {
   margin: 0 80px;
   border-radius: 20px;
 }
-
-h2 {
+#todo h2 {
   display: flex;
   justify-content: center;
   font-size: 18px;
