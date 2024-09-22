@@ -23,17 +23,14 @@ body {
 }
 #todo .minibox input {
   border-radius: 20px;
-  padding: 12px 15px;
+  padding: 10px 15px;
   margin: 24px;
 }
 #todo .minibox .btn {
   background-color: #d7d7dd;
   border-radius: 20px;
-  margin-left: 75px;
-}
-#todo .minibox .btn h5 {
-  font-size: 18px;
-  padding: 4px 14px;
+  margin: 0 0 40px 70px;
+  padding: 4px 18px;
 }
 #todo h2 {
   display: flex;
