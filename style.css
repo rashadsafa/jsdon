@@ -7,37 +7,37 @@ body {
   padding: 50px;
 }
 #todo .minibox {
-  width: 240px;
-  height: 200px;
+  width: 230px;
+  height: 180px;
   border: 2px solid #9c6541;
   border-radius: 20px;
   background-color: #9c6541;
 }
 #todo .minibox h1 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 36px;
   color: #ffffff;
   display: flex;
   justify-content: center;
-  margin: 10px 0;
+  margin: 12px 0;
 }
 #todo .minibox input {
   border-radius: 20px;
-  padding: 10px 15px;
-  margin: 24px;
+  padding: 13px 15px;
+  margin: 0 0 20px 20px;
 }
 #todo .minibox .btn {
-  background-color: #d7d7dd;
+  background-color: #fefefe;
   border-radius: 20px;
-  margin: 0 0 40px 70px;
+  margin: 0 0 50px 80px;
   padding: 4px 18px;
 }
 #todo h2 {
   display: flex;
   justify-content: center;
-  font-size: 18px;
-  border: 2px solid #000000;
+  font-size: 20px;
+  border: 2px solid #5d6d7e;
   border-radius: 20px;
-  padding: 8px;
-  margin: 1px;
+  padding: 10px;
+  margin: 10px 30px;
 }/*# sourceMappingURL=style.css.map */
