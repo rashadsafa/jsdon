@@ -4,40 +4,58 @@ body {
 }
 
 #todo {
-  padding: 50px;
+  padding: 100px;
+}
+#todo .minibox, #todo input, #todo .btn, #todo h2 {
+  border-radius: 20px;
 }
 #todo .minibox {
   width: 230px;
   height: 180px;
   border: 2px solid #9c6541;
-  border-radius: 20px;
   background-color: #9c6541;
 }
 #todo .minibox h1 {
   font-weight: 700;
   font-size: 36px;
   color: #ffffff;
-  display: flex;
-  justify-content: center;
   margin: 12px 0;
 }
 #todo .minibox input {
-  border-radius: 20px;
-  padding: 13px 15px;
-  margin: 0 0 20px 20px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
 }
 #todo .minibox .btn {
   background-color: #fefefe;
-  border-radius: 20px;
-  margin: 0 0 50px 80px;
   padding: 4px 18px;
+  margin-bottom: 20px;
 }
 #todo h2 {
   text-align: center;
   font-size: 20px;
   border: 2px solid #5d6d7e;
-  border-radius: 20px;
   padding: 10px;
   margin: 10px 30px;
   overflow: auto;
+}
+@media screen and (min-width: 768px) {
+  #todo .minibox {
+    width: 700px;
+    height: 550px;
+  }
+  #todo .minibox h1 {
+    font-size: 90px;
+    margin: 50px 0;
+  }
+  #todo .minibox input, #todo .minibox .btn, #todo .minibox h2 {
+    padding: 20px 50px;
+    font-size: 50px;
+    border-radius: 50px;
+  }
+  #todo .minibox .btn {
+    margin: 60px 0;
+  }
+  #todo h2 {
+    margin: 20px 50px;
+  }
 }/*# sourceMappingURL=style.css.map */
