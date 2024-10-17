@@ -40,20 +40,20 @@ body {
 }
 @media screen and (min-width: 768px) {
   #todo .minibox {
-    width: 700px;
-    height: 550px;
+    width: 500px;
+    height: 360px;
   }
   #todo .minibox h1 {
-    font-size: 90px;
-    margin: 50px 0;
+    font-size: 70px;
+    margin: 30px 0;
   }
   #todo .minibox input, #todo .minibox .btn, #todo .minibox h2 {
     padding: 20px 50px;
-    font-size: 50px;
+    font-size: 28px;
     border-radius: 50px;
   }
   #todo .minibox .btn {
-    margin: 60px 0;
+    margin: 20px;
   }
   #todo h2 {
     margin: 20px 50px;
