@@ -40,22 +40,22 @@ body {
 }
 @media screen and (min-width: 768px) {
   #todo .minibox {
-    width: 500px;
-    height: 360px;
+    width: 320px;
+    height: 230px;
   }
   #todo .minibox h1 {
-    font-size: 70px;
-    margin: 30px 0;
+    font-size: 40px;
+    margin-top: 20px;
   }
-  #todo .minibox input, #todo .minibox .btn, #todo .minibox h2 {
-    padding: 20px 50px;
-    font-size: 28px;
-    border-radius: 50px;
+  #todo .minibox input {
+    padding: 14px;
+    margin: 18px;
   }
   #todo .minibox .btn {
-    margin: 20px;
+    margin: 10px 20px 40px;
+    padding: 4px 20px;
   }
   #todo h2 {
-    margin: 20px 50px;
+    margin: 10px 50px;
   }
 }/*# sourceMappingURL=style.css.map */
